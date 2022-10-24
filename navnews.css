@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  background: #ffff;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(52, 52, 53);
+  height: 50px;
+  text-decoration: none;
+}
+
+.logo {
+  width: 160px;
+  margin-right: 45px;
+  margin-left: 10px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+.nav-left ul li {
+  cursor: pointer;
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.nav-left ul li a {
+  color: wheat;
+  text-decoration: none;
+  padding: 1rem;
+}

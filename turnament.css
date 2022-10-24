@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: rgb(19, 124, 124);
+  scroll-behavior: smooth;
+}
+.div1 {
+  border: 2px solid black;
+  width: 470px;
+  float: left;
+  margin-left: 10px;
+  padding-bottom: 15px;
+  background: blue;
+  margin-top: 15px;
+}
+.div2 {
+  width: 200px;
+
+  max-height: 150px;
+  overflow: hidden;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 1px;
+  font-size: 23px;
+  font-weight: bold;
+}
+img {
+  width: 420px;
+  height: 260px;
+  float: left;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.div3 {
+  float: left;
+  width: 420px;
+  height: 120px;
+  margin-top: 10px;
+  margin-right: 200px;
+  overflow: hidden;
+}

@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+  background: #050e2d;
+}
+
+.container {
+  width: 750px;
+  padding: 0px 100px;
+  height: 550px;
+  background-color: rgba(185, 61, 30, 0.582);
+  /* margin-top: 150px;
+  margin-left: 220px; */
+  display: flex;
+  margin-left: 250px;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.container input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 220px;
+  height: 40px;
+  border-style: ridge;
+}
+
+.container textarea {
+  margin-top: 10px;
+  background-color: #e6e6e6;
+  width: 320px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.container img {
+  width: 220px;
+  height: 80px;
+}
+
+.container .btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgb(104, 226, 130);
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.container .chose {
+  padding-top: 5px;
+  padding-left: 3px;
+}
